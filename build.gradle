@@ -32,6 +32,7 @@ buildscript {
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
+apply plugin: 'maven'
 
 // 指定了生成的打包的文件名称
 version = '1.0.0'
