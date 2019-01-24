@@ -33,6 +33,8 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 
+mainClassName= 'com.waylau.spring.boot.blog.Application'
+
 // 指定了生成的打包的文件名称
 version = '1.0.0'
 
